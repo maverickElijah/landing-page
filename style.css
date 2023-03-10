@@ -1,0 +1,151 @@
+:root{
+    --clr-drk-background: #1F2937;
+    --clr-secondary: #3882F6;
+    --clr-light: #E5E7EB;
+
+
+    --fs-main: 48px;
+    --fw-main: bolder;
+    --fs-header: 24px;;
+
+    --fs-quote: 36px;
+    --clr-quote: #1F2937;
+    --fw-quote: italic;
+    
+}
+*{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1em;
+}
+
+.bg-dark {
+    background-color: var(--clr-drk-background);
+}
+.bg-gray {
+    background-color: var(--clr-light);
+}
+
+.main-txt {
+    font-size: var(--fs-main);
+    font-weight: var(--fw-main);
+}
+.quote{
+    font-size: var(--fs-quote);
+    color: var(--clr-quote);
+    font-style: var(--fw-quote);    
+}
+.fc-white {
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: var(--clr-light)
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2em 7em;
+}
+.nav{
+    display: flex;
+    gap: 30px;
+}
+
+.container{
+    display: flex;
+    padding: 2em 7em;
+}
+
+
+.content{
+    display: flex;
+    flex-direction: column;
+}
+img{
+    height: 200px;
+}
+
+button{
+    width: 100px;
+    padding: 0.875em;
+    border-radius: 5px;
+    background-color: var(--clr-secondary);
+    border: 0;
+    color: white;
+    line-height: 1em;
+}
+
+.placeholder{
+    background-color: var(--clr-light);
+}
+.content{
+    display: flex;
+
+    flex: 1 1 0;
+}
+.container-1{
+    flex-direction: row;
+}
+.container-2{
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.container-2 .content{
+    flex-direction: row;
+    margin: 40px;
+    gap: 40px;
+}
+.card{
+    width: 150px;
+}
+.container-3{
+    flex-direction: column;
+    padding: 8em;
+}
+.quote{
+    margin-bottom: 0;
+}
+.quote-who{
+    align-self: flex-end;
+    font-weight: 700;
+    
+}
+
+.quote, .quote-who{
+    margin: 0 6rem;
+}
+
+
+.container-4 .content{
+    background-color: #3882F6;
+    color: white;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2em 7em;
+    border-radius: 5px;
+    margin: 2rem
+}
+
+.inverted{
+    border: 1px solid white;
+    padding: 0.5em;
+}
+
+
+
+.footer {
+    text-align: center;
+    padding: 3em;
+}
+
+.random{
+    font-size: 36px;
+    font-style: bold;
+}
