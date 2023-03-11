@@ -128,9 +128,9 @@ button{
     color: white;
     justify-content: space-between;
     flex-direction: row;
-    padding: 2em 7em;
+    padding: 2rem 7rem;
     border-radius: 5px;
-    margin: 2rem
+    margin: 2rem;
 }
 
 .inverted{
@@ -149,12 +149,30 @@ button{
 
 .even-columns{
     justify-content: center;
-    width: 400px;
+    width: 500px;
 }
 
 .container-1{
     justify-content: space-between;
 }
+
 h1,p {
     margin-bottom: 1rem;
 }
+
+.inverted{
+    width: 200px;
+}
+
+.random-img{
+    max-width: 100%;
+    border: 3px solid var(--clr-secondary);
+    border-radius: 5px;
+}
+
+.container-2 .content{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
